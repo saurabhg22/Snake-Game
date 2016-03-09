@@ -22,10 +22,10 @@ high_score = 0
 scorefile = open('save.p', 'r')
 high_score = int(scorefile.read())
 scorefile.close()
-img = pygame.image.load('head.jpg')
-img2 = pygame.image.load('apple.jpg')
-icon = pygame.image.load('icon.jpg')
-tail = pygame.image.load('tail.jpg')
+img = pygame.image.load('images/head.jpg')
+img2 = pygame.image.load('images/apple.jpg')
+icon = pygame.image.load('images/icon.jpg')
+tail = pygame.image.load('images/tail.jpg')
 direction = "right"
 direction2 = "right"
 gd=pygame.display.set_mode((display_width,display_height))
